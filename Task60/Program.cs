@@ -15,8 +15,8 @@ int twoDigitNumbers = 89;
 
 if (size1 * size2 * size3 > twoDigitNumbers)
 {
- Console.WriteLine("Array is too big.");
- return;
+    Console.WriteLine("Array is too big.");
+    return;
 }
 int[,,] creat3DArray = Create3DArray(size1, size2, size3, twoDigitNumbers);
 PrintArray3D(creat3DArray);
